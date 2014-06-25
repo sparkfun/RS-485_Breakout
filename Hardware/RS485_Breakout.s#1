@@ -6691,9 +6691,9 @@ Standard 8.5x11 US Letter frame</description>
 </net>
 <net name="A" class="0">
 <segment>
-<wire x1="132.08" y1="104.14" x2="134.62" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="104.14" x2="137.16" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="A"/>
-<label x="134.62" y="104.14" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="195.58" y1="106.68" x2="198.12" y2="106.68" width="0.1524" layer="91"/>
@@ -6716,9 +6716,9 @@ Standard 8.5x11 US Letter frame</description>
 </net>
 <net name="B" class="0">
 <segment>
-<wire x1="132.08" y1="106.68" x2="134.62" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="106.68" x2="137.16" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="B"/>
-<label x="134.62" y="106.68" size="1.27" layer="95" xref="yes"/>
+<label x="137.16" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="195.58" y1="109.22" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
