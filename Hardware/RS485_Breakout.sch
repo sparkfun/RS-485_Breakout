@@ -6551,7 +6551,7 @@ Standard 8.5x11 US Letter frame</description>
 <part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="P+6" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND11" library="SparkFun" deviceset="GND" device=""/>
-<part name="JP1" library="SparkFun" deviceset="STAND-OFF" device=""/>
+<part name="JP15" library="SparkFun" deviceset="STAND-OFF" device=""/>
 <part name="JP6" library="SparkFun" deviceset="STAND-OFF" device=""/>
 <part name="JP7" library="SparkFun" deviceset="STAND-OFF" device=""/>
 <part name="JP8" library="SparkFun" deviceset="STAND-OFF" device=""/>
@@ -6561,7 +6561,7 @@ Standard 8.5x11 US Letter frame</description>
 <part name="JP9" library="SparkFun" deviceset="M05" device="PTH"/>
 <part name="JP5" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
 <part name="JP10" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
-<part name="JP11" library="SparkFun" deviceset="M04" device="PTH"/>
+<part name="JP1" library="SparkFun" deviceset="M04" device="PTH"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 </parts>
 <sheets>
@@ -6590,7 +6590,7 @@ Standard 8.5x11 US Letter frame</description>
 <instance part="C3" gate="G$1" x="144.78" y="104.14"/>
 <instance part="P+6" gate="1" x="144.78" y="111.76"/>
 <instance part="GND11" gate="1" x="144.78" y="96.52"/>
-<instance part="JP1" gate="G$1" x="233.68" y="38.1"/>
+<instance part="JP15" gate="G$1" x="233.68" y="38.1"/>
 <instance part="JP6" gate="G$1" x="228.6" y="38.1"/>
 <instance part="JP7" gate="G$1" x="223.52" y="38.1"/>
 <instance part="JP8" gate="G$1" x="218.44" y="38.1"/>
@@ -6600,7 +6600,7 @@ Standard 8.5x11 US Letter frame</description>
 <instance part="JP9" gate="G$1" x="48.26" y="116.84" rot="MR180"/>
 <instance part="JP5" gate="G$1" x="238.76" y="38.1"/>
 <instance part="JP10" gate="G$1" x="243.84" y="38.1"/>
-<instance part="JP11" gate="G$1" x="190.5" y="144.78"/>
+<instance part="JP1" gate="G$1" x="190.5" y="144.78"/>
 <instance part="LOGO1" gate="G$1" x="233.68" y="50.8"/>
 </instances>
 <busses>
@@ -6713,6 +6713,10 @@ Standard 8.5x11 US Letter frame</description>
 <pinref part="JP4" gate="G$1" pin="8"/>
 <label x="205.74" y="71.12" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="210.82" y1="116.84" x2="213.36" y2="116.84" width="0.1524" layer="91"/>
+<label x="213.36" y="116.84" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="B" class="0">
 <segment>
@@ -6737,6 +6741,10 @@ Standard 8.5x11 US Letter frame</description>
 <wire x1="203.2" y1="73.66" x2="205.74" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="G$1" pin="7"/>
 <label x="205.74" y="73.66" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="210.82" y1="132.08" x2="213.36" y2="132.08" width="0.1524" layer="91"/>
+<label x="213.36" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RX-I" class="0">
@@ -6778,7 +6786,7 @@ Standard 8.5x11 US Letter frame</description>
 </segment>
 <segment>
 <wire x1="195.58" y1="149.86" x2="198.12" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="JP11" gate="G$1" pin="4"/>
+<pinref part="JP1" gate="G$1" pin="4"/>
 <label x="198.12" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -6790,7 +6798,7 @@ Standard 8.5x11 US Letter frame</description>
 </segment>
 <segment>
 <wire x1="195.58" y1="147.32" x2="198.12" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="JP11" gate="G$1" pin="3"/>
+<pinref part="JP1" gate="G$1" pin="3"/>
 <label x="198.12" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -6802,7 +6810,7 @@ Standard 8.5x11 US Letter frame</description>
 </segment>
 <segment>
 <wire x1="195.58" y1="144.78" x2="198.12" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="JP11" gate="G$1" pin="2"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
 <label x="198.12" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -6814,7 +6822,7 @@ Standard 8.5x11 US Letter frame</description>
 </segment>
 <segment>
 <wire x1="195.58" y1="142.24" x2="198.12" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="JP11" gate="G$1" pin="1"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 <label x="198.12" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
