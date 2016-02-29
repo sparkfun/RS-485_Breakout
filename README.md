@@ -11,7 +11,11 @@ Repository Contents
 -------------------
 
 * **/Hardware** - All Eagle design files (.brd, .sch, .STL)
-* **/Production** - Test bed files and production panel files
+* **/Production** - Test bed files and production panel files 
+
+Documentation
+--------------
+* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
 
 License Information
 -------------------
